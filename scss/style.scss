@@ -1,0 +1,49 @@
+@import "nullstyle.scss";
+
+body{
+   background-color: #fff;
+   padding: 50px 50px;
+}
+h1{
+   font-size: 30px;
+   text-align: center;
+}
+h2{
+   font-size: 25px;
+   font-weight: 700;
+   text-align: end;
+}
+a{
+   text-decoration: underline;
+}
+.content {
+
+		// .content__border
+
+		&__border {
+         border: 5px solid;
+		}
+}
+.content-top {
+   margin-bottom: 25px;
+   font-size: 25px;
+}
+.content-info {
+   font-size: 20px;
+   line-height: 30px;
+   margin-bottom: 20px;
+}
+.content-img {
+   margin-bottom: 20px;
+}
+.comtent {
+
+		// .comtent__img
+
+		&__img {
+         margin: 0 auto;
+         text-align: center;
+		}
+}
+.content-bottom {
+}
